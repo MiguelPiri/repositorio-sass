@@ -1,0 +1,18 @@
+.header{
+    background-color: $colorHeader;
+    & &_titulo {
+        width: 100px;
+    }
+    & &_navegar {
+        display: inline;
+        ul {
+            display: inline;
+            li {
+                color: tomato;
+                a:hover {
+                    color: lightblue;
+                }
+            }
+        }
+    }
+}

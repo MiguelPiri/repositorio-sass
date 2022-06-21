@@ -1,0 +1,22 @@
+//SECTION
+
+@import "vars";
+@import "header";
+@import "responsive";
+
+section {
+    background-color: $colorPrincipal;
+    h3 {
+        font-size: 25px;
+        font-family: $fontPrincipal;
+        font-weight: 700px;
+    }
+    div {
+        border: $bordeNegro;
+        p {
+            color: aqua;
+        }
+    }
+}
+
+

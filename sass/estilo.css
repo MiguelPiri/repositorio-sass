@@ -1,0 +1,49 @@
+/* variables */
+.header {
+  background-color: greenyellow;
+}
+
+.header .header_titulo {
+  width: 100px;
+}
+
+.header .header_navegar {
+  display: inline;
+}
+
+.header .header_navegar ul {
+  display: inline;
+}
+
+.header .header_navegar ul li {
+  color: tomato;
+}
+
+.header .header_navegar ul li a:hover {
+  color: lightblue;
+}
+
+@media (min-width: 768px) {
+  section {
+    background-color: tomato;
+  }
+}
+
+section {
+  background-color: tomato;
+}
+
+section h3 {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700px;
+}
+
+section div {
+  border: solid 2px black;
+}
+
+section div p {
+  color: aqua;
+}
+/*# sourceMappingURL=estilo.css.map */
